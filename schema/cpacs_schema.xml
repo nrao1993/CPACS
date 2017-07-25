@@ -3560,6 +3560,84 @@
                 </controlSurface>
               </controlSurfaces>
             </hingeMomentMap>
+            <onBoardSystems>
+             <onBoardSystem uID="">
+              <name>name</name>
+              <description>description</description>
+              <parentUID>parentUID</parentUID>
+              <performanceParameters>
+               <systemMass>
+                <name>name</name>
+                <description>description</description>
+                <mass>mass</mass>
+               </systemMass>
+               <systemPowerConsumption>
+                <name>name</name>
+                <description>description</description>
+                <powerConsumption>powerConsumption</powerConsumption>
+               </systemPowerConsumption>
+               <systemVolume>
+                <name>name</name>
+                <description>description</description>
+                <volume>volume</volume>
+               </systemVolume>
+               </performanceParameters>
+               <subSystems>
+                <subSystem uID="">
+                 <name>name</name>
+                 <description>description</description>
+                 <parentUID>parentUID</parentUID>
+                 <performanceParameters>
+                  <subSystemMass>
+                   <name>name</name>
+                   <description>description</description>
+                   <mass>mass</mass>
+                 </subSystemMass>
+                 <subSystemPowerConsumption>
+                  <name>name</name>
+                  <description>description</description>
+                  <powerConsumption>powerConsumption</powerConsumption>
+                 </subSystemPowerConsumption>
+                 <subSystemVolume>
+                  <name>name</name>
+                  <description>description</description>
+                  <volume>volume</volume>
+                 </subSystemVolume>
+                </performanceParameters>
+                <ports>
+                 <port uID="">
+                  <name>name</name>
+                  <description>description</description>
+                 </port>
+                </ports>
+                <components>
+                 <component uID="">
+                  <name>name</name>
+                  <description>description</description>
+                  <parentUID>parentUID</parentUID>
+                  <performanceParameters>
+                   <componentMass>
+                    <name>name</name>
+                    <description>description</description>
+                    <mass>mass</mass>
+                   </componentMass>
+                   <componentPowerConsumption>
+                    <name>name</name>
+                    <description>description</description>
+                    <powerConsumption>powerConsumption</powerConsumption>
+                   </componentPowerConsumption>
+                   <componentVolume>
+                    <name>name</name>
+                    <description>description</description>
+                    <volume>volume</volume>
+                   </componentVolume>
+                  </performanceParameters>
+                 </component>
+                </components>
+               </subSystem>
+              </subSystems>
+             </onBoardSystem>
+            </onBoardSystems>
           </flightSystems>
           <landingGearPositionSafetyMargins>
             <takeOff>0.0</takeOff>
