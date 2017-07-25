@@ -16347,6 +16347,17 @@
           </sheetList3D>
         </structuralProfile3D>
       </structuralProfiles>
+      <flightSystemComponentProfiles>
+        <flightSystemComponentProfile uID="">
+          <name>name</name>
+          <description>description</description>
+          <pointList>
+            <x mapType="vector">x</x>
+            <y mapType="vector">y</y>
+            <z mapType="vector">z</z>
+          </pointList>
+        </flightSystemComponentProfile>
+      </flightSystemComponentProfiles>
     </profiles>
     <structuralElements>
       <sheetBasedStructuralElements>
