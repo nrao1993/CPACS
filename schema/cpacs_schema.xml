@@ -2975,6 +2975,23 @@
           <name>name</name>
           <description>description</description>
           <parentUID>parentUID</parentUID>
+          <transformation> 
+            <scaling>      
+              <x>0.0</x>   
+              <y>0.0</y>   
+              <z>0.0</z>   
+            </scaling>     
+            <rotation>     
+              <x>0.0</x>   
+              <y>0.0</y>   
+              <z>0.0</z>   
+            </rotation>    
+            <translation>  
+              <x>0.0</x>   
+              <y>0.0</y>   
+              <z>0.0</z>   
+            </translation> 
+          </transformation>
           <subSystems>
            <subSystem uID="">
             <name>name</name>
